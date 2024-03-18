@@ -66,7 +66,7 @@ function ListedNFTs() {
 
     return (
         <Container maxWidth="md">
-            <Typography variant="overline" fontSize={40}>All NFTs listed</Typography>
+            <Typography variant="overline" fontSize={40}>All listed NFTs</Typography>
             {connected ? (
                 loading ? (
                     <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: 3 }}>
